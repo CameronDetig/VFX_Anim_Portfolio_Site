@@ -426,8 +426,32 @@ a:hover {
     color: #93c5fd;
 }
 
+.resume-section {
+    margin-top: var(--spacing-2xl);
+}
+
+.resume-section h3 {
+    color: var(--color-text-light);
+    margin-bottom: var(--spacing-lg);
+}
+
+.resume-preview {
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: var(--border-radius-lg);
+    padding: var(--spacing-md);
+    margin-bottom: var(--spacing-lg);
+    overflow: hidden;
+}
+
+.resume-preview embed {
+    border-radius: var(--border-radius);
+    display: block;
+}
+
 .resume-download {
-    margin-top: var(--spacing-xl);
+    margin-top: var(--spacing-lg);
+    text-align: center;
 }
 
 .btn-primary {
